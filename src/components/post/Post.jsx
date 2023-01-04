@@ -31,10 +31,10 @@ const Post = ({desc, photo, date, like,comment, userId}) => {
             <div className="post-bottom">
               <div className="post-bottom-left">
                 <span>
-                  <img src="/assets/like.png" alt='reaction' className='reaction'onClick={handleLike}/>
+                  <img src="assets/like.png" alt='reaction' className='reaction'onClick={handleLike}/>
                 </span>
                 <span>
-                  <img src="/assets/heart.png" alt='reaction' className='reaction'onClick={handleLike}/>
+                  <img src="assets/heart.png" alt='reaction' className='reaction'onClick={handleLike}/>
                 </span>
                 <span>{liked} people like it</span>
               </div>
