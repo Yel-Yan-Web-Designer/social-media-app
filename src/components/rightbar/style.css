@@ -1,0 +1,54 @@
+.rightbar{
+    flex: 3;
+}
+.rightbar-wrapper {
+    padding: 20px 20px 0 0 ;
+}
+.toprightbar {
+    display: flex;
+    align-items : center;
+    column-gap: 0.65rem;
+}
+.gift{
+    width: 40px;
+    height: 40px;
+}
+.toprightbar-para {
+    color: hsl(0, 0%, 0%, 0.75);
+}
+.bold{
+    font-weight: 800;
+}
+.online-text{
+    margin: 1rem 0;
+}
+/* profile right bar */
+.rightbarTitle{
+    margin-bottom: 0.7rem;
+    font-size: 1.15rem;
+}
+.rightbarInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.rightbarinfoItems{
+    font-size: 1rem;
+    color: hsl(0, 0%, 0%, 0.75);
+}
+.rightbarinfoItems span{
+    font-weight: 400;
+}
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.rightbarFollowing img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}

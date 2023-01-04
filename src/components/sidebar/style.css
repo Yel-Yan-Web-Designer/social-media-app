@@ -1,0 +1,45 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+.sidebar-wrapper{
+    padding: 1.4rem;
+}
+.sidebar-list{
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.divider{
+    margin: 1rem 0;
+}
+.seeMore-btn{
+    border: none;
+    outline: none;
+    display: inline-block;
+    background: hsl(0, 10%, 80%);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+.sidebarFriendList{
+    display: grid;
+    row-gap: 0.8rem;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color :#f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(179, 179, 179);
+    border-radius: 30px;
+}

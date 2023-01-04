@@ -1,0 +1,16 @@
+.sidebarfriend{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    cursor: pointer;
+}
+.sidebarfriend:hover .username {
+    text-decoration: underline;
+    user-select: none;
+}
+.sidebarfriendlistImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}

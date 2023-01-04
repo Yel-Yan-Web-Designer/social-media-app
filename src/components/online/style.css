@@ -1,0 +1,24 @@
+.onlineImg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    position: relative;
+}
+.circle{
+    display: block;
+    width: 13.5px;
+    height: 13.5px;
+    border-radius: 50%;
+    background-color: limegreen;
+    border: 2px solid white;
+
+    position : absolute;
+    top : -3px; right : 0;
+}
+.username {
+    color : hsl(0, 0%, 0%, 0.75);
+    cursor: pointer;
+}
+.username:hover{
+    text-decoration: underline;
+}
