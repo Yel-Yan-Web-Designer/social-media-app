@@ -10,12 +10,12 @@ const rightbar = ({profile}) => {
     return (
       <>
         <div className="toprightbar">
-          <img src="/assets/gift.png" alt="" className="gift" />
+          <img src="assets/gift.png" alt="" className="gift" />
           <p className="toprightbar-para">
             <span className='bold'>Pola Foster</span> and <span className='bold'>3 others friends </span>have a birthday today
           </p>
         </div>
-        <img src='/assets/ad.png' style={{borderRadius : "7px"}}/>
+        <img src='assets/ad.png' style={{borderRadius : "7px"}}/>
         <h4 className="online-text">Online Friends</h4>
         <div className="online-friendlist">
           {
