@@ -1,7 +1,6 @@
 .container{
     display: flex;
     width: 100%;
-    border: 2px solid red;
 }
 .profileRight{
     flex : 9;
